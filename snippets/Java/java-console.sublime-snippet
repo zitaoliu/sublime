@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+public class ${1:ClassName} {
+	public static void main(String[] args){
+		${2}
+		//System.out.println();
+	}	
+}
+]]></content>
+	<tabTrigger>jc</tabTrigger>	
+</snippet>
