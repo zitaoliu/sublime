@@ -1,0 +1,4 @@
+{
+	"cmd": ["javac", "$file"],
+	"cmd": ["java", "$file_base_name"]
+}
