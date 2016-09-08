@@ -1,7 +1,7 @@
 #!/bin/bash
 
 USERNAME="zitaoliu"
-PKG_DIR="/Users/$USERNAME/Library/Application Support/Sublime Text 3/Packages/"
+PKG_DIR="/Users/$USERNAME/Library/Application Support/Sublime Text 3/Packages"
 
 # install the package control
 # use package control to install LaTeXing
