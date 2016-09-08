@@ -15,7 +15,7 @@ ln -si "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/loc
 # setup sublime personal configuration
 ###############################################################################
 
-cp "Default\ (OSX).sublime-keymap" "$PKG_DIR/User/"
+cp "Default (OSX).sublime-keymap" "$PKG_DIR/User/"
 cp "Preferences.sublime-settings" "$PKG_DIR/User/"
 
 ###############################################################################
