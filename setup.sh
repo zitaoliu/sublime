@@ -22,13 +22,13 @@ cp "Preferences.sublime-settings" "$PKG_DIR/User/"
 # install sublime packages
 ###############################################################################
 
-git clone https://github.com/skuroda/Sublime-AdvancedNewFile.git "$PKG_DIR"
-git clone https://github.com/spadgos/sublime-jsdocs.git "$PKG_DIR"
-git clone https://github.com/condemil/Gist.git "$PKG_DIR"
-git clone https://github.com/titoBouzout/SideBarEnhancements.git "$PKG_DIR"
-git clone https://github.com/SublimeText/Origami.git "$PKG_DIR"
-git clone https://github.com/SublimeLinter/SublimeLinter3.git "$PKG_DIR"
-git clone https://github.com/guillermooo/Vintageous.git "$PKG_DIR"
+git clone https://github.com/skuroda/Sublime-AdvancedNewFile.git "$PKG_DIR/Sublime-AdvancedNewFile"
+git clone https://github.com/spadgos/sublime-jsdocs.git "$PKG_DIR/sublime-jsdocs"
+git clone https://github.com/condemil/Gist.git "$PKG_DIR/Gist"
+git clone https://github.com/titoBouzout/SideBarEnhancements.git "$PKG_DIR/SideBarEnhancements"
+git clone https://github.com/SublimeText/Origami.git "$PKG_DIR/Origami"
+git clone https://github.com/SublimeLinter/SublimeLinter3.git "$PKG_DIR/SublimeLinter3"
+git clone https://github.com/guillermooo/Vintageous.git "$PKG_DIR/Vintageous"
 
 ###############################################################################
 # copy sublime snippets and custom build
