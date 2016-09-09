@@ -6,6 +6,7 @@ PKG_DIR="/Users/$USERNAME/Library/Application Support/Sublime Text 3/Packages"
 # install the package control
 # use package control to install LaTeXing
 # type ". setup.sh" to run this script
+# for c++ project, install cpplint: pip install cpplint
 
 #ln -si "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl2
 ln -si "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
