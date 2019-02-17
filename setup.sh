@@ -4,11 +4,9 @@ USERNAME="zitaoliu"
 PKG_DIR="/Users/$USERNAME/Library/Application Support/Sublime Text 3/Packages"
 
 # install the package control
-# use package control to install LaTeXing
 # type ". setup.sh" to run this script
 # for c++ project, install cpplint: pip install cpplint
 
-#ln -si "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl2
 ln -si "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/subl
 
 
@@ -28,8 +26,9 @@ git clone https://github.com/spadgos/sublime-jsdocs.git "$PKG_DIR/sublime-jsdocs
 git clone https://github.com/condemil/Gist.git "$PKG_DIR/Gist"
 git clone https://github.com/titoBouzout/SideBarEnhancements.git "$PKG_DIR/SideBarEnhancements"
 git clone https://github.com/SublimeText/Origami.git "$PKG_DIR/Origami"
-git clone https://github.com/SublimeLinter/SublimeLinter3.git "$PKG_DIR/SublimeLinter3"
+git clone https://github.com/SublimeLinter/SublimeLinter.git "$PKG_DIR/SublimeLinter"
 git clone https://github.com/guillermooo/Vintageous.git "$PKG_DIR/Vintageous"
+git clone https://github.com/LaTeXing/LaTeXing.git "$PKG_DIR/LaTexing"
 
 ###############################################################################
 # copy sublime snippets and custom build
